@@ -1,6 +1,10 @@
 # Local data folder
 data
 
+# Local build
+build
+!styleguide/build
+
 # Logs
 logs
 *.log
