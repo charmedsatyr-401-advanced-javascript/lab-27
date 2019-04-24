@@ -7,11 +7,13 @@ class Counter extends React.Component {
   }
 
   handleUp = e => {
+    e.preventDefault();
     let count = this.state.count + 1;
     this.updateCounter(count);
   };
 
   handleDown = e => {
+    e.preventDefault();
     let count = this.state.count - 1;
     this.updateCounter(count);
   };

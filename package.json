@@ -24,9 +24,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charmedsatyr-401-advanced-javascript/lab-27.git"
@@ -36,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-27/issues"
   },
-  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-27#readme"
+  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-27#readme",
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
