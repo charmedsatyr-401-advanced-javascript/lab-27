@@ -37,6 +37,6 @@
   "bugs": {
     "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-27/issues"
   },
-  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-27#readme",
+  "homepage": "./",
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
