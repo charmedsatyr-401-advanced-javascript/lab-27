@@ -15,6 +15,33 @@
 #### Documentation
 * [styleguide](styleguide/index.html)
 
+### Modules
+`./src/index.js`
+`./src/app.js`
+`./src/counter/counter.js`
+`./src/header/header.js`
+`./src/footer/footer.js`
+
+#### `./src/index.js`
+##### Exported Values and Methods
+The entry point to the app. Exports `<Main/>`.
+
+#### `./src/app.js`
+##### Exported Values and Methods
+Arranges interior components. Exports `<App/>`.
+
+#### `./src/counter/counter.js`
+##### Exported Values and Methods
+The functional, stateful core of the app with a counter and increment/decrement links. Exports `<Counter/>`.
+
+#### `./src/footer/footer.js`
+##### Exported Values and Methods
+A static footer. Exports `<Footer/>`.
+
+#### `./src/header/header.js`
+##### Exported Values and Methods
+A static footer. Exports `<Header/>`.
+
 ### Setup
 #### `.env` requirements
 N/A
@@ -26,9 +53,9 @@ N/A
 * How do you run tests?
   * npm run test
 * What assertions were made?
-  * Snapshot and functional tests for `Counter` component
+  * Snapshot and functional tests for `Header`, `Footer`, and `Counter` components.
 * What assertions need to be / should be made?
-  * Snapshots of `<Header/>` and `<Footer/>` if desired.
+TBD
 
 #### UML
 N/A
