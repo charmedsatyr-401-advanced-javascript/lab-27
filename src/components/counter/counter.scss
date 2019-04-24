@@ -1,0 +1,50 @@
+$white: #eee;
+$green: #78e24a;
+$red: #ea4f66;
+$size: 150px;
+
+section {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-around;
+  line-height: $size;
+  text-align: center;
+  width: 100%;
+
+  > span.count {
+    color: $white;
+    font-size: $size;
+    font-weight: 700;
+    height: $size;
+    transition: all 1s linear;
+    width: $size;
+    &.positive {
+      color: $green;
+    }
+    &.negative {
+      color: $red;
+    }
+  }
+
+  > a {
+    color: $white;
+    border-radius: 50%;
+    font-size: $size;
+    text-decoration: none;
+    transition: all 0.25s linear;
+    width: $size;
+    &.up {
+      background: $green;
+      &:hover {
+        background: lighten($green, 5);
+      }
+    }
+    &.down {
+      background: $red;
+      &:hover {
+        background: lighten($red, 5);
+      }
+    }
+  }
+}
