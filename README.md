@@ -17,10 +17,16 @@
 
 ### Modules
 `./src/index.js`
+
 `./src/app.js`
+
 `./src/counter/counter.js`
+
 `./src/header/header.js`
+
 `./src/footer/footer.js`
+
+---
 
 #### `./src/index.js`
 ##### Exported Values and Methods
@@ -51,11 +57,11 @@ N/A
   
 #### Tests
 * How do you run tests?
-  * npm run test
+  * `npm run test`
 * What assertions were made?
   * Snapshot and functional tests for `Header`, `Footer`, and `Counter` components.
 * What assertions need to be / should be made?
 TBD
 
 #### UML
-N/A
+![UML](assets/uml.jpg)
