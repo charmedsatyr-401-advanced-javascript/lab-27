@@ -1,46 +1,34 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 27: React Testing and Deployment
 
-### Author: Student/Group Name
+### Author: Joseph Wolfe
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [repo](https://github.com/charmedsatyr-401-advanced-javascript/lab-27)
+* [![Build Status](https://travis-ci.com/charmedsatyr-401-advanced-javascript/lab-27.svg?branch=master)](https://travis-ci.com/charmedsatyr-401-advanced-javascript/lab-27) 
+* [netlify](https://loving-beaver-04c499.netlify.com/)
+* [aws s3 (manual)](http://charmedsatyr-401d29-lab-27.s3-website-us-west-2.amazonaws.com/)
+* [aws s3 (automated)](https://charmedsatyr-401d29-lab-401d29charmedsatyrlab27b-148qmzypc3n92.s3-us-west-2.amazonaws.com) *This one has permissions issues.*
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [styleguide](styleguide/index.html)
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+N/A
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
 * How do you run tests?
+  * npm run test
 * What assertions were made?
+  * Snapshot and functional tests for `Counter` component
 * What assertions need to be / should be made?
+  * Snapshots of `<Header/>` and `<Footer/>` if desired.
 
 #### UML
-Link to an image of the UML for your application and response to events
+N/A
